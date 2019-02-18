@@ -1,0 +1,133 @@
+html {
+  margin: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+  width: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #6c5ce7;
+  color: #fff;
+  height: 70px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.icon--wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  align-self: center;
+  position: absolute;
+}
+.icon--wrapper img {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+.mainNav--wrapper{
+  width: 100%;
+  height: 50;
+  background-color: #a29bfe;
+  color: #fff;
+  font-size: bold;
+}
+.pageSize {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1540px;
+  height: 100%;
+  margin: auto;
+}
+.offers_nav,
+.profile__nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+  flex-grow: 1;
+  margin: 0;
+}
+.offers_nav {
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.offers_nav li,
+.profile__nav li {
+  display: flex;
+  height: 50px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.profile__nav {
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.offers_nav li:hover,
+.profile__nav li:hover {
+  background-color: #9bb2fe;
+  font-size: 1.1em;
+  cursor: pointer;
+  /* color: rgba(255, 0, 0, 0.3); */
+}
+.user_login {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 50px;
+  right: 90px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  /* border-color: black; */
+  background-color: #a29bfe;
+  padding: 15px;
+  border-radius: 3px 0 3px 3px;
+}
+
+
+
+.active {
+  display: flex;
+}
+
+
+
+
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  background-color: #6c5ce7;
+  color: #fff;
+}
+footer div a {
+  color: rgb(17, 248, 9);
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}

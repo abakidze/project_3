@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project 3</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="icon--wrapper">
+      <a href="./mainPage.html">
+        <img src="./images/hippo.png" alt="">
+      </a>
+    </div>
+  </header>
+  <nav class="mainNav--wrapper">
+    <div class="pageSize">
+      <ul class="offers_nav">
+        <li>Newly Added</li>
+        <li>Popular</li>
+        <li>Sales</li>
+      </ul>
+      <ul class="profile__nav">
+        <li onclick="showLoginField()">Log In</li>
+        <form class="user_login">
+          <fieldset id="inputs">
+            <input id="username" type="email" name="Email" placeholder="Your email address" required>
+            <input id="password" type="password" name="Password" placeholder="Password" required>
+          </fieldset>
+          <fieldset id="actions">
+            <input type="submit" id="submit" value="Log in">
+            <label><input type="checkbox" checked="checked"> Keep me signed in</label>
+          </fieldset>
+        </form>
+        <li><a href="./html/registerPage.html">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+
+  </div>
+
+  <footer>
+    <div>
+      Icons made by
+      <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+      <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+        BY</a>
+    </div>
+  </footer>
+
+  <script src="./js/App.js"></script>
+</body>
+
+</html>
